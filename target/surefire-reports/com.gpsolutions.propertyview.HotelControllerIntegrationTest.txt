@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.gpsolutions.propertyview.HotelControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.751 s -- in com.gpsolutions.propertyview.HotelControllerIntegrationTest
