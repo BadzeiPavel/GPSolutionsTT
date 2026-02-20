@@ -6,19 +6,18 @@ import com.gpsolutions.propertyview.dto.HotelSummaryDto;
 
 import java.util.List;
 import java.util.Map;
-import java.util.UUID;
 
 public interface HotelService {
 
     List<HotelSummaryDto> getAll();
 
-    HotelDetailsDto getById(UUID id);
+    HotelDetailsDto getById(Long id);
 
     List<HotelSummaryDto> search(String name, String brand, String city, String country, String amenity);
 
     HotelSummaryDto create(CreateHotelRequest request);
 
-    HotelDetailsDto updateAmenities(UUID id, List<String> amenities);
+    HotelDetailsDto updateAmenities(Long id, List<String> amenities);
 
     Map<String, Long> histogram(String param);
 }

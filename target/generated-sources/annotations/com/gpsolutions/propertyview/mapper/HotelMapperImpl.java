@@ -12,13 +12,12 @@ import com.gpsolutions.propertyview.entity.Contacts;
 import com.gpsolutions.propertyview.entity.Hotel;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-02-18T20:36:01+0300",
+    date = "2026-02-20T19:16:11+0300",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 21.0.5 (Amazon.com Inc.)"
 )
 @Component
@@ -30,7 +29,7 @@ public class HotelMapperImpl implements HotelMapper {
             return null;
         }
 
-        UUID id = null;
+        Long id = null;
         String name = null;
         String description = null;
         String brand = null;
@@ -64,7 +63,7 @@ public class HotelMapperImpl implements HotelMapper {
 
         String address = null;
         String phone = null;
-        UUID id = null;
+        Long id = null;
         String name = null;
         String description = null;
 

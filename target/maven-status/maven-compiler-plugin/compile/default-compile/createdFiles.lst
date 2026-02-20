@@ -13,6 +13,7 @@ com\gpsolutions\propertyview\entity\Hotel.class
 com\gpsolutions\propertyview\dto\ArrivalTimeDto.class
 com\gpsolutions\propertyview\entity\Address.class
 com\gpsolutions\propertyview\mapper\HotelMapper.class
+com\gpsolutions\propertyview\config\OpenApiConfig.class
 com\gpsolutions\propertyview\entity\Contacts$ContactsBuilder.class
 com\gpsolutions\propertyview\controller\HotelController.class
 com\gpsolutions\propertyview\dto\AddressDto.class
@@ -22,6 +23,7 @@ com\gpsolutions\propertyview\service\histogram\AmenitiesHistogramStrategy.class
 com\gpsolutions\propertyview\service\impl\HotelServiceImpl.class
 com\gpsolutions\propertyview\dto\HotelSummaryDto.class
 com\gpsolutions\propertyview\service\histogram\BrandHistogramStrategy.class
+com\gpsolutions\propertyview\specification\HotelSpecifications.class
 com\gpsolutions\propertyview\controller\RestExceptionHandler.class
 com\gpsolutions\propertyview\PropertyViewApplication.class
 com\gpsolutions\propertyview\service\histogram\HistogramStrategy.class
